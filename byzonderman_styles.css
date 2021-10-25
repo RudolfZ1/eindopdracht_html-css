@@ -1,0 +1,113 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+}
+.header {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+  margin: 20px;
+}
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* Container for flexboxes */
+.column-layout {
+  margin: 21px;
+  padding: 40px;
+  display: flex;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-image: url(boom.jpeg);
+}
+
+.main-column {
+  flex: 2;
+  background-color: floralwhite;
+  padding-left: 20px;
+}
+.sidebar1 {
+  flex: 1;
+
+  background-color: burlywood;
+}
+.sidebar2 {
+  flex: 1;
+
+  background-color: cornflowerblue;
+}
+.footer {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  text-align: justify;
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: flex;
+  flex: 1;
+  padding: 30px;
+  color: rgb(3, 3, 3);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  font-weight: 200;
+}
+
+h1 {
+  font-family: Open Sans;
+  font-size: 47px;
+  color: #d82121;
+
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-family: Open Sans;
+  font-size: 25px;
+  color: black;
+  font-weight: regular;
+  padding-top: 10px;
+}
+h3 {
+  font-family: Open Sans;
+  font-size: 20px;
+  color: white;
+  font-weight: 100;
+  line-height: 1, 5rem;
+  text-align: left;
+  margin-left: 10px;
+}
+
+p {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 200;
+  color: rgb(12, 12, 11);
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+}
